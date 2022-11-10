@@ -1,3 +1,5 @@
+import PopTypes from "prop-types";
+
 const ListContacts = ({ contacts, onDeleteContact }) => {
   return (
     <ol className="contact-list">
@@ -25,6 +27,11 @@ const ListContacts = ({ contacts, onDeleteContact }) => {
       ))}
     </ol>
   );
+};
+
+ListContacts.PopTypes = {
+  contacts: PopTypes.array.isRequired,
+  onDeleteContact: PopTypes.func.isRequired,
 };
 
 export default ListContacts;
