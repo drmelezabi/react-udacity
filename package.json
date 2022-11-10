@@ -1,13 +1,8 @@
 {
   "name": "react-udacity",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "first": "cd reactnd-contacts-server2 && npm install && cd../React-Fundamentals-C1-React-Contacts && npm install",
     "start-server": "cd reactnd-contacts-server2 && npm start",
     "start-react": "cd React-Fundamentals-C1-React-Contacts && npm start"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
